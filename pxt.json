@@ -1,6 +1,6 @@
 {
     "name": "hebrew",
-    "version": "0.0.120",
+    "version": "0.0.121",
     "description": "Hebrew translations for hai2025-ts (Hour of AI)",
     "dependencies": {
         "core": "*",
