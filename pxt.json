@@ -1,6 +1,6 @@
 {
-    "name": "hai2025-ts",
-    "version": "0.0.119",
+    "name": "hebrew",
+    "version": "0.0.120",
     "description": "Hebrew translations for hai2025-ts (Hour of AI)",
     "dependencies": {
         "core": "*",
@@ -12,11 +12,11 @@
         "custom.jres",
         "blocks_wood1.md",
         "_locales/he/blocks_wood1.md",
-        "_locales/he/hai2025-ts-strings.json",
-        "_locales/he/hai2025-ts-jsdoc-strings.json",
+        "_locales/he/hebrew-strings.json",
+        "_locales/he/hebrew-jsdoc-strings.json",
         "_locales/he-IL/blocks_wood1.md",
-        "_locales/he-IL/hai2025-ts-strings.json",
-        "_locales/he-IL/hai2025-ts-jsdoc-strings.json"
+        "_locales/he-IL/hebrew-strings.json",
+        "_locales/he-IL/hebrew-jsdoc-strings.json"
     ],
     "testFiles": [],
     "public": true,
