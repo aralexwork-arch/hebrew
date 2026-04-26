@@ -1,24 +1,13 @@
+# hai2025-he
 
-> Open this page at [https://neonerz.github.io/hai2025-ts/](https://neonerz.github.io/hai2025-ts/)
+Hebrew localization of [ReWrite-Media/hai2025-ts](https://github.com/ReWrite-Media/hai2025-ts) — the MakeCode extension and tutorials for the Hour of AI 2025 Minecraft Education world.
 
-## Use as Extension
+This repository provides:
+- Hebrew block annotations (via `block.loc.he` and `block.loc.he-IL`) on the original extension
+- Hebrew tutorial markdown files under `_locales/he/`
+- Original English fallback markdown for compatibility
 
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://minecraft.makecode.com/](https://minecraft.makecode.com/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/neonerz/hai2025-ts** and import
-
-## Edit this project
-
-To edit this repository in MakeCode.
-
-* open [https://minecraft.makecode.com/](https://minecraft.makecode.com/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/neonerz/hai2025-ts** and click import
-
-#### Metadata (used for search, rendering)
-
-* for PXT/minecraft
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+Tutorials are loaded by the Minecraft Education Hebrew port via:
+```
+https://minecraft.makecode.com/hoc2025?forcelang=he#tutorial:https://github.com/USERNAME/hai2025-he/blocks_wood1
+```
