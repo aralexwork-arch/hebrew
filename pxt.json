@@ -1,6 +1,6 @@
 {
     "name": "hai2025-ts",
-    "version": "0.0.111",
+    "version": "0.0.112",
     "description": "Hebrew localization fork of hai2025-ts (Hour of AI)",
     "dependencies": {
         "core": "*",
