@@ -1,33 +1,22 @@
 {
-    "name": "minecraft-hai-he",
-    "version": "0.0.2",
-    "description": "Hebrew localization for hai2025-ts (Hour of AI)",
-    "dependencies": {
-        "core": "*",
-        "builder": "*"
-    },
+    "name": "minecraft-hai-he2",
+    "version": "0.1.0",
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
-        "custom.ts",
-        "custom.jres",
         "blocks_wood1.md",
-        "_locales/he/blocks_wood1.md",
-        "_locales/he/minecraft-hai-he-strings.json",
-        "_locales/he/minecraft-hai-he-jsdoc-strings.json",
-        "_locales/he-IL/blocks_wood1.md",
-        "_locales/he-IL/minecraft-hai-he-strings.json",
-        "_locales/he-IL/minecraft-hai-he-jsdoc-strings.json"
+        "_locales/he/hai2025-ts-strings.json",
+        "_locales/he/hai2025-ts-jsdoc-strings.json",
+        "_locales/he-IL/hai2025-ts-strings.json",
+        "_locales/he-IL/hai2025-ts-jsdoc-strings.json"
     ],
     "testFiles": [],
-    "public": true,
-    "targetVersions": {
-        "target": "2.1.24",
-        "targetId": "minecraft"
-    },
-    "supportedTargets": [
-        "minecraft"
-    ],
-    "preferredEditor": "tsprj"
+    "supportedTargets": ["minecraft"],
+    "preferredEditor": "blocksprj",
+    "dependencies": {
+        "core": "*",
+        "builder": "*",
+        "hai2025-ts": "github:ReWrite-Media/hai2025-ts"
+    }
 }
