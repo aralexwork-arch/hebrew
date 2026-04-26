@@ -1,13 +1,15 @@
 {
-    "name": "hebrew",
-    "version": "0.0.118",
+    "name": "hai2025-ts",
+    "version": "0.0.119",
     "description": "Hebrew translations for hai2025-ts (Hour of AI)",
     "dependencies": {
         "core": "*",
-        "hai2025-ts": "github:ReWrite-Media/hai2025-ts#v0.0.111"
+        "builder": "*"
     },
     "files": [
         "README.md",
+        "custom.ts",
+        "custom.jres",
         "blocks_wood1.md",
         "_locales/he/blocks_wood1.md",
         "_locales/he/hai2025-ts-strings.json",
