@@ -1,8 +1,5 @@
 {
-    "{id:namespace}haiInputs|block": "שעת ה-AI",
     "haiInputs.craftWith|block": "צור עם %n",
-    "{id:namespace}ai|block": "שעת ה-AI Python",
-    "{id:namespace}hai|block": "שעת ה-AI",
     "on_training_start|block": "מודול אימון",
     "hai.craftWith|block": "צור עם %n",
     "hai.crafting|block": "רשת יצירה %pattern",
